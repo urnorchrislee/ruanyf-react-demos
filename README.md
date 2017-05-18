@@ -21,7 +21,7 @@ ReactDOM.render(
 
 在 v0.14 中，React 使用 ```JSTransform.js```来转换 ```<script type="text/jsx">```，它已经被废弃了。
 
-# Demo2 - JavaScript in JSX
+## Demo2 - JavaScript in JSX
 
 你也可以在JSX使用JavaScript。它将角括号（<）作为HTML高亮语法的开始，并作为JavaScript高亮语法的开始括号（{）。
 
