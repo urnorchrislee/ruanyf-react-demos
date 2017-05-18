@@ -2,7 +2,7 @@
 
 跟着阮一峰大大开启全栈之路
 
-# Demo1 - Render JSX
+### Demo1 - Render JSX
 
 在 ```React``` 中模板语法的高亮叫做 [JSX](http://facebook.github.io/react/docs/displaying-data.html#jsx-syntax)。它允许在JSX把HTML标签直接插入JavaScript代码。```ReactDOM.render()```是转换JSX到HTML的方法，渲染它到指定的DOM节点。
 
