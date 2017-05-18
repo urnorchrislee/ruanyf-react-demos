@@ -1,6 +1,6 @@
 # ruanyf-react-demos
 
-跟着阮一峰大大开启全栈之路
+跟着[阮一峰](https://github.com/ruanyf/react-demos)大大开启全栈之路
 
 ## Demo1 - Render JSX
 
