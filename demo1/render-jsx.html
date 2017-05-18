@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Render JSX</title>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="example"></div>
+    <script type="text/babel">
+
+        // 在这里编写我们的代码
+        ReactDOM.render(
+            <h1>hello world</h1>,
+            document.getElementById('example')
+        );
+
+    </script>
+
+</body>
+</html>
