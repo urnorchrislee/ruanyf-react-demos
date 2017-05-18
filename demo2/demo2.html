@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript in JSX</title>
+</head>
+<body>
+
+<div id="example"></div>
+
+<script src="../build/react.js"></script>
+<script src="../build/react-dom.js"></script>
+<script src="../build/browser.min.js"></script>
+<script type="text/babel">
+
+    // 在这里编写代码
+
+    var names = ['洱海', '长江', '黄河'];
+
+    ReactDOM.render(
+        <div>{
+            names.map(function (name, index) {
+                return <div key={index}>welcome, {name} !</div>
+            })
+        }</div>,
+        document.getElementById('example')
+    )
+</script>
+
+</body>
+</html>
